@@ -1,0 +1,16 @@
+[Unit]
+Description=Myapp Backend Microservice
+After=network.target
+
+[Service]
+User=myapp
+Group=myapp
+WorkingDirectory=/app
+Environment=DB_HOST={{ db_host | default('rds.myapp.internal') }}
+Environment=PORT=8080
+ExecStart=/usr/bin/node /app/index.js
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

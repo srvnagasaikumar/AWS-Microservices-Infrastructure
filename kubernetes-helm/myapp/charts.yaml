@@ -1,0 +1,6 @@
+apiVersion: v2
+name: myapp-backend
+description: A Helm chart for deploying the Myapp Backend microservice on Amazon EKS
+type: application
+version: 1.0.0
+appVersion: "1.2.0"
