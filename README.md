@@ -37,7 +37,7 @@ graph LR
       Prometheus[Prometheus & Grafana] -.->|Scrapes Metrics| EKS
     end
   end
-
+```
 --- 
 
 ## ⚙️ Core Implementations
@@ -85,7 +85,9 @@ Deployed and configured Prometheus inside the EKS cluster for centralized scrapi
 ---
 
 
- Let's Connect!
- If you have questions about this architecture or want to discuss DevOps, cloud-native engineering, and SRE best practices, feel free to reach out.
+**Let's Connect!**
+
+If you have questions about this architecture or want to discuss DevOps, cloud-native engineering, and SRE best practices, feel free to reach out.
  
- 🔗 LinkedIn: linkedin.com/in/saikumarsingari📧 Email: srv.nagasaikumar@gmail.com
+ 🔗 LinkedIn: linkedin.com/in/saikumarsingari
+ 📧 Email: srv.nagasaikumar@gmail.com
